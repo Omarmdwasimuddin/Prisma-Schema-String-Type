@@ -21,3 +21,10 @@ model User {
 }
 ```
 ---
+
+
+#### prisma schema er validation check koro
+```bash
+npx prisma validate
+```
+---
