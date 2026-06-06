@@ -1,5 +1,6 @@
 ## Prisma-Schema-String-Type
 
+```bash
 generator client {
   provider = "prisma-client-js"
   output   = "../app/generated/prisma"
@@ -18,3 +19,5 @@ model User {
   col4 String @db.VarChar(1000)
   col5 String @db.Text
 }
+```
+---
